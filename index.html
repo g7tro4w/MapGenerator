@@ -12,9 +12,13 @@
 
 	</canvas>
 	<form name="generator">
+		<label for="numSeeds">Число зёрен</label>
 		<input name="numSeeds" type="text">
+		<label for="numUpdates">Число итераций</label>
 		<input name="numUpdates" type="text">
-		<input type="button" onClick="GenerateMap()">
+		<label for="numUpdates">Размер зерна</label>
+		<input name="seedSize" type="text">
+		<input type="button" onClick="GenerateMap()" value="Сгенерировать">
 	</form>
 	<script src="main.js"></script>
 </body>
