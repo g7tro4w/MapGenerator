@@ -52,7 +52,7 @@ function GenerateMap(){
 		}      
 		for(var i = 0; i < iNumUpdates; i++) 
 		{
-			setTimeout(generation(), 1);
+			setTimeout(generation, 1);
 		}  
 	}
 }
